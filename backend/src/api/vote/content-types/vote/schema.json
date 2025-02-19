@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "votes",
+  "info": {
+    "singularName": "vote",
+    "pluralName": "votes",
+    "displayName": "Vote"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "rating": {
+      "type": "integer",
+      "min": 1,
+      "max": 5,
+      "required": true
+    },
+    "student": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::student.student",
+      "inversedBy": "votes"
+    },
+    "story": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::story.story",
+      "inversedBy": "votes"
+    }
+  }
+}
