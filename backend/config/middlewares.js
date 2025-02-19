@@ -7,7 +7,7 @@ module.exports = [
       origin: ['*'],  // Esto permite solicitudes desde cualquier origen
       headers: ['*'],
       methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'HEAD', 'OPTIONS'],
-      credentials: true,
+      credentials: false,
     },
   },
   'strapi::errors',
