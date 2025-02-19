@@ -1,4 +1,4 @@
-import axios from 'axios'
+import axios from './axios'
 
 export default {
     async getStories(page = 1, limit = 10, sort = 'createdAt:desc') {
