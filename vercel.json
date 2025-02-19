@@ -12,7 +12,7 @@
         }
     ],
     "env": {
-        "NODE_ENV": "production",
+        "NODE_ENV": "development",
         "STRAPI_URL": "/api",
         "VITE_API_URL": "/api"
     }
