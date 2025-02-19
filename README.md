@@ -27,6 +27,11 @@ Esta aplicación consta de un backend desarrollado con Strapi y un frontend desa
    ```
 
 El backend estará disponible en `http://localhost:1337`.
+Para acceder al panel de administración de Strapi, utiliza las siguientes credenciales:
+
+- URL: http://localhost:1337/admin
+- Email: jorge@orsai.org
+- Contraseña: Borges2025
 
 ### Frontend (Vue.js)
 
